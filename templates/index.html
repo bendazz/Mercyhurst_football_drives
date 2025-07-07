@@ -136,6 +136,38 @@
             border-color: #0066cc;
             box-shadow: 0 0 5px rgba(0, 102, 204, 0.3);
         }
+        .view-selector {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #e8f4f8;
+            border-radius: 8px;
+        }
+        .view-selector button {
+            font-size: 1.1em;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: 2px solid #003366;
+            border-radius: 5px;
+            background-color: white;
+            color: #003366;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .view-selector button:hover {
+            background-color: #003366;
+            color: white;
+        }
+        .view-selector button.active {
+            background-color: #003366;
+            color: white;
+        }
+        .single-game-view {
+            display: block;
+        }
+        .comparison-view {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -143,56 +175,74 @@
         <h1>Mercyhurst Football Drive Analysis</h1>
         <p class="subtitle">2024 Season Game Analysis</p>
         
-        <!-- Game Selector -->
-        <div class="game-selector">
-            <label for="game-select">Select Game:</label>
-            <select id="game-select" onchange="loadSelectedGame()">
-                <option value="">Loading games...</option>
-            </select>
+        <!-- View Selector -->
+        <div class="view-selector">
+            <button id="single-view-btn" class="active" onclick="switchView('single')">Single Game View</button>
+            <button id="comparison-view-btn" onclick="switchView('comparison')">All Games Comparison</button>
         </div>
         
-        <div id="stats-container" class="stats-grid">
-            <div class="stat-card">
-                <h3>Final Score</h3>
-                <p class="value" id="final-score">Loading...</p>
+        <!-- Single Game View -->
+        <div id="single-game-view" class="single-game-view">
+            <!-- Game Selector -->
+            <div class="game-selector">
+                <label for="game-select">Select Game:</label>
+                <select id="game-select" onchange="loadSelectedGame()">
+                    <option value="">Loading games...</option>
+                </select>
             </div>
-            <div class="stat-card">
-                <h3>Final Differential</h3>
-                <p class="value" id="final-differential">Loading...</p>
+            
+            <div id="stats-container" class="stats-grid">
+                <div class="stat-card">
+                    <h3>Final Score</h3>
+                    <p class="value" id="final-score">Loading...</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Final Differential</h3>
+                    <p class="value" id="final-differential">Loading...</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Drives</h3>
+                    <p class="value" id="total-drives">Loading...</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Mercyhurst Drives</h3>
+                    <p class="value" id="mercyhurst-drives">Loading...</p>
+                </div>
             </div>
-            <div class="stat-card">
-                <h3>Total Drives</h3>
-                <p class="value" id="total-drives">Loading...</p>
+
+            <div class="section-title">Score Differential Over Time</div>
+            <div class="plot-container">
+                <div id="loading" class="loading">Loading drive data and creating visualization...</div>
+                <div id="plot" style="width:100%; height:700px;"></div>
             </div>
-            <div class="stat-card">
-                <h3>Mercyhurst Drives</h3>
-                <p class="value" id="mercyhurst-drives">Loading...</p>
+
+            <div class="section-title">Drive-by-Drive Breakdown</div>
+            <div id="drive-table-container">
+                <table class="drive-table" id="drive-table">
+                    <thead>
+                        <tr>
+                            <th>Drive #</th>
+                            <th>Quarter</th>
+                            <th>Time</th>
+                            <th>Team</th>
+                            <th>Result</th>
+                            <th>Score</th>
+                            <th>Differential</th>
+                        </tr>
+                    </thead>
+                    <tbody id="drive-table-body">
+                    </tbody>
+                </table>
             </div>
         </div>
-
-        <div class="section-title">Score Differential Over Time</div>
-        <div class="plot-container">
-            <div id="loading" class="loading">Loading drive data and creating visualization...</div>
-            <div id="plot" style="width:100%; height:700px;"></div>
-        </div>
-
-        <div class="section-title">Drive-by-Drive Breakdown</div>
-        <div id="drive-table-container">
-            <table class="drive-table" id="drive-table">
-                <thead>
-                    <tr>
-                        <th>Drive #</th>
-                        <th>Quarter</th>
-                        <th>Time</th>
-                        <th>Team</th>
-                        <th>Result</th>
-                        <th>Score</th>
-                        <th>Differential</th>
-                    </tr>
-                </thead>
-                <tbody id="drive-table-body">
-                </tbody>
-            </table>
+        
+        <!-- Comparison View -->
+        <div id="comparison-view" class="comparison-view">
+            <div class="section-title">All Games Comparison - Score Differential Over Time</div>
+            <div class="plot-container">
+                <div id="comparison-loading" class="loading">Loading comparison data and creating visualization...</div>
+                <div id="comparison-plot" style="width:100%; height:auto;"></div>
+            </div>
         </div>
 
         <div id="error-message" class="error" style="display:none;"></div>
@@ -312,6 +362,48 @@
             errorDiv.textContent = message;
             errorDiv.style.display = 'block';
             document.getElementById('loading').style.display = 'none';
+        }
+
+        // Switch between single game view and comparison view
+        function switchView(viewType) {
+            const singleView = document.getElementById('single-game-view');
+            const comparisonView = document.getElementById('comparison-view');
+            const singleBtn = document.getElementById('single-view-btn');
+            const comparisonBtn = document.getElementById('comparison-view-btn');
+            
+            if (viewType === 'single') {
+                singleView.style.display = 'block';
+                comparisonView.style.display = 'none';
+                singleBtn.classList.add('active');
+                comparisonBtn.classList.remove('active');
+            } else {
+                singleView.style.display = 'none';
+                comparisonView.style.display = 'block';
+                singleBtn.classList.remove('active');
+                comparisonBtn.classList.add('active');
+                loadComparisonPlot();
+            }
+        }
+
+        // Load and display the comparison plot
+        async function loadComparisonPlot() {
+            try {
+                document.getElementById('comparison-loading').style.display = 'block';
+                const response = await fetch('/api/comparison-plot');
+                const result = await response.json();
+                
+                if (result.success) {
+                    const plotData = JSON.parse(result.plot);
+                    Plotly.newPlot('comparison-plot', plotData.data, plotData.layout, {responsive: true});
+                    document.getElementById('comparison-loading').style.display = 'none';
+                } else {
+                    showError('Failed to create comparison plot: ' + result.error);
+                    document.getElementById('comparison-loading').style.display = 'none';
+                }
+            } catch (error) {
+                showError('Error loading comparison plot: ' + error.message);
+                document.getElementById('comparison-loading').style.display = 'none';
+            }
         }
 
         // Initialize the page
