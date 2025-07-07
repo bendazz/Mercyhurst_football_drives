@@ -18,7 +18,11 @@ def load_games_index():
     Load the index of all available games
     """
     try:
-        with open('/workspaces/Mercyhurst_football_drives/games_index.json', 'r') as f:
+        # Get the current directory of the script
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        games_index_path = os.path.join(base_dir, 'games_index.json')
+        
+        with open(games_index_path, 'r') as f:
             return json.load(f)
     except FileNotFoundError:
         print("Games index file not found. Please run scrape_all_games.py first.")
@@ -32,9 +36,12 @@ def load_game_data(opponent_name):
     Load drive data for a specific game
     """
     try:
+        # Get the current directory of the script
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        
         # Convert opponent name to filename format
         filename = f"game_{opponent_name.lower().replace(' ', '_')}.json"
-        filepath = f'/workspaces/Mercyhurst_football_drives/games_data/{filename}'
+        filepath = os.path.join(base_dir, 'games_data', filename)
         
         with open(filepath, 'r') as f:
             return json.load(f)
@@ -199,19 +206,11 @@ def create_comparison_plots(games_data):
     cols = 3  # 3 columns
     rows = (num_games + cols - 1) // cols  # Calculate rows needed
     
-    # Create subplots
-    fig = make_subplots(
-        rows=rows, 
-        cols=cols,
-        subplot_titles=[f"vs {game['opponent']}" for game in games_data],
-        vertical_spacing=0.08,
-        horizontal_spacing=0.05
-    )
+    # First pass: calculate global min and max differentials across all games
+    all_differentials = []
+    processed_games_data = []
     
-    for i, game_data in enumerate(games_data):
-        row = i // cols + 1
-        col = i % cols + 1
-        
+    for game_data in games_data:
         opponent_name = game_data['opponent']
         drive_data = game_data['data']
         
@@ -248,6 +247,42 @@ def create_comparison_plots(games_data):
         
         plot_data.insert(0, (0, 0, 0, 0, 'Game Start', 'Game Start'))
         plot_data.append((60, final_differential, final_merc_score, final_opp_score, 'Game End', 'Game End'))
+        
+        # Collect all differentials for global scale calculation
+        differentials = [item[1] for item in plot_data]
+        all_differentials.extend(differentials)
+        
+        # Store processed data for second pass
+        processed_games_data.append({
+            'opponent': opponent_name,
+            'plot_data': plot_data
+        })
+    
+    # Calculate global y-axis range with some padding
+    if all_differentials:
+        global_min = min(all_differentials)
+        global_max = max(all_differentials)
+        padding = max(2, (global_max - global_min) * 0.1)  # 10% padding, minimum 2 points
+        y_range = [global_min - padding, global_max + padding]
+    else:
+        y_range = [-10, 10]  # Default range if no data
+    
+    # Create subplots
+    fig = make_subplots(
+        rows=rows, 
+        cols=cols,
+        subplot_titles=[f"vs {game['opponent']}" for game in processed_games_data],
+        vertical_spacing=0.08,
+        horizontal_spacing=0.05
+    )
+    
+    # Second pass: create plots with processed data
+    for i, game_data in enumerate(processed_games_data):
+        row = i // cols + 1
+        col = i % cols + 1
+        
+        opponent_name = game_data['opponent']
+        plot_data = game_data['plot_data']
         
         elapsed_times = [item[0] for item in plot_data]
         differentials = [item[1] for item in plot_data]
@@ -291,10 +326,10 @@ def create_comparison_plots(games_data):
         paper_bgcolor='rgba(0,0,0,0)'
     )
     
-    # Update x and y axes for all subplots
+    # Update x and y axes for all subplots with fixed ranges
     for i in range(1, rows * cols + 1):
         fig.update_xaxes(title_text="Time (min)", range=[0, 60], row=(i-1)//cols + 1, col=(i-1)%cols + 1)
-        fig.update_yaxes(title_text="Score Diff", row=(i-1)//cols + 1, col=(i-1)%cols + 1)
+        fig.update_yaxes(title_text="Score Diff", range=y_range, row=(i-1)//cols + 1, col=(i-1)%cols + 1)
     
     return fig
 
@@ -417,4 +452,5 @@ def comparison_plot():
         })
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    port = int(os.environ.get('PORT', 5001))
+    app.run(debug=False, host='0.0.0.0', port=port)
