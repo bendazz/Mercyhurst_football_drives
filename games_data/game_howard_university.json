@@ -1,0 +1,156 @@
+[
+  {
+    "quarter": 1,
+    "time": "15:00",
+    "elapsed_seconds": 0,
+    "team": "Game Start",
+    "result": "Game Start",
+    "play_description": "Game Start - Mercyhurst vs Howard University",
+    "mercyhurst_score": 0,
+    "opponent_score": 0,
+    "score_differential": 0
+  },
+  {
+    "quarter": 1,
+    "time": "05:44",
+    "elapsed_seconds": 556,
+    "team": "Mercyhurst",
+    "result": "Field Goal",
+    "play_description": "MER - Nagucki,Nathan 21 yd field goal 14 plays, 94 yards, TOP 05:48",
+    "mercyhurst_score": 3,
+    "opponent_score": 0,
+    "score_differential": 3
+  },
+  {
+    "quarter": 2,
+    "time": "07:25",
+    "elapsed_seconds": 1355,
+    "team": "Howard University",
+    "result": "Touchdown",
+    "play_description": "HOW - Hunter,Jarett 11 yd run (West,Dylan kick), 11 plays, 73 yards, TOP 06:32",
+    "mercyhurst_score": 3,
+    "opponent_score": 7,
+    "score_differential": -4
+  },
+  {
+    "quarter": 2,
+    "time": "01:07",
+    "elapsed_seconds": 1733,
+    "team": "Howard University",
+    "result": "Touchdown",
+    "play_description": "HOW - Hunter,Jarett 7 yd run (West,Dylan kick), 9 plays, 56 yards, TOP 02:42",
+    "mercyhurst_score": 3,
+    "opponent_score": 14,
+    "score_differential": -11
+  },
+  {
+    "quarter": 3,
+    "time": "08:51",
+    "elapsed_seconds": 2169,
+    "team": "Howard University",
+    "result": "Touchdown",
+    "play_description": "HOW - Clark,Nathanial 11 yd pass from Scroggins,Ja'Shawn (West,Dylan kick) 9 plays, 89 yards, TOP 04:28",
+    "mercyhurst_score": 3,
+    "opponent_score": 21,
+    "score_differential": -18
+  },
+  {
+    "quarter": 3,
+    "time": "04:18",
+    "elapsed_seconds": 2442,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Rodriguez,Ayron 2 yd run (Nagucki,Nathan kick), 11 plays, 73 yards, TOP 04:33",
+    "mercyhurst_score": 10,
+    "opponent_score": 21,
+    "score_differential": -11
+  },
+  {
+    "quarter": 4,
+    "time": "14:59",
+    "elapsed_seconds": 2701,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Davison,Rylan 8 yd pass from Urena,Adam (Davison,Rylan pass) 4 plays, 72 yards, TOP 00:01",
+    "mercyhurst_score": 18,
+    "opponent_score": 21,
+    "score_differential": -3
+  },
+  {
+    "quarter": 4,
+    "time": "09:48",
+    "elapsed_seconds": 3012,
+    "team": "Howard University",
+    "result": "Touchdown",
+    "play_description": "HOW - Hunter,Jarett 1 yd run ( ), 6 plays, 26 yards, TOP 02:38",
+    "mercyhurst_score": 18,
+    "opponent_score": 27,
+    "score_differential": -9
+  },
+  {
+    "quarter": 4,
+    "time": "05:12",
+    "elapsed_seconds": 3288,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Barmore,Cameron 13 yd pass from Urena,Adam (Nagucki,Nathan kick) 8 plays, 71 yards, TOP 04:31",
+    "mercyhurst_score": 25,
+    "opponent_score": 27,
+    "score_differential": -2
+  },
+  {
+    "quarter": 4,
+    "time": "00:41",
+    "elapsed_seconds": 3559,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Barmore,Cameron 22 yd pass from Urena,Adam ( kick) 8 plays, 61 yards, TOP 02:34",
+    "mercyhurst_score": 31,
+    "opponent_score": 27,
+    "score_differential": 4
+  },
+  {
+    "quarter": 4,
+    "time": "00:41",
+    "elapsed_seconds": 3559,
+    "team": "Howard University",
+    "result": "Touchdown",
+    "play_description": "HOW - Gallop, Jr.,Kenny 0 yd PAT return",
+    "mercyhurst_score": 31,
+    "opponent_score": 29,
+    "score_differential": 2
+  },
+  {
+    "quarter": 4,
+    "time": "00:00",
+    "elapsed_seconds": 3600,
+    "team": "Howard University",
+    "result": "Field Goal",
+    "play_description": "HOW - West,Dylan 37 yd field goal 5 plays, 55 yards, TOP 00:41",
+    "mercyhurst_score": 31,
+    "opponent_score": 32,
+    "score_differential": -1
+  },
+  {
+    "quarter": 1,
+    "time": "",
+    "elapsed_seconds": 0,
+    "team": "Howard University",
+    "result": "Touchdown",
+    "play_description": "",
+    "mercyhurst_score": 31,
+    "opponent_score": 32,
+    "score_differential": -1
+  },
+  {
+    "quarter": 4,
+    "time": "00:00",
+    "elapsed_seconds": 3600,
+    "team": "Game End",
+    "result": "Game End",
+    "play_description": "Final Score - Mercyhurst 31, Howard University 32",
+    "mercyhurst_score": 31,
+    "opponent_score": 32,
+    "score_differential": -1
+  }
+]

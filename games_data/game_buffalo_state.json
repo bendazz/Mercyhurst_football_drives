@@ -1,0 +1,134 @@
+[
+  {
+    "quarter": 1,
+    "time": "15:00",
+    "elapsed_seconds": 0,
+    "team": "Game Start",
+    "result": "Game Start",
+    "play_description": "Game Start - Mercyhurst vs Buffalo State",
+    "mercyhurst_score": 0,
+    "opponent_score": 0,
+    "score_differential": 0
+  },
+  {
+    "quarter": 1,
+    "time": "11:47",
+    "elapsed_seconds": 193,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Davison,Rylan 7 yd pass from Urena,Adam (Nagucki,Nathan kick) 6 plays, 75 yards, TOP 03:13",
+    "mercyhurst_score": 7,
+    "opponent_score": 0,
+    "score_differential": 7
+  },
+  {
+    "quarter": 1,
+    "time": "05:58",
+    "elapsed_seconds": 542,
+    "team": "Mercyhurst",
+    "result": "Field Goal",
+    "play_description": "MER - Nagucki,Nathan 20 yd field goal 5 plays, 45 yards, TOP 02:22",
+    "mercyhurst_score": 10,
+    "opponent_score": 0,
+    "score_differential": 10
+  },
+  {
+    "quarter": 1,
+    "time": "00:09",
+    "elapsed_seconds": 891,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Barmore,Cameron 18 yd pass from Urena,Adam (Nagucki,Nathan kick) 7 plays, 55 yards, TOP 03:51",
+    "mercyhurst_score": 17,
+    "opponent_score": 0,
+    "score_differential": 17
+  },
+  {
+    "quarter": 2,
+    "time": "07:17",
+    "elapsed_seconds": 1363,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Davis,Chaz 18 yd pass from Urena,Adam (Nagucki,Nathan kick) 8 plays, 78 yards, TOP 10:22",
+    "mercyhurst_score": 24,
+    "opponent_score": 0,
+    "score_differential": 24
+  },
+  {
+    "quarter": 2,
+    "time": "00:20",
+    "elapsed_seconds": 1780,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Black,Braydon 2 yd pass from Urena,Adam ( kick) 12 plays, 78 yards, TOP 00:00",
+    "mercyhurst_score": 31,
+    "opponent_score": 0,
+    "score_differential": 31
+  },
+  {
+    "quarter": 2,
+    "time": "00:00",
+    "elapsed_seconds": 1800,
+    "team": "Mercyhurst",
+    "result": "Field Goal",
+    "play_description": "MER - Nagucki,Nathan 20 yd field goal 2 plays,  yards, TOP 00:15",
+    "mercyhurst_score": 34,
+    "opponent_score": 0,
+    "score_differential": 34
+  },
+  {
+    "quarter": 3,
+    "time": "02:08",
+    "elapsed_seconds": 2572,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Urena,Austin 41 yd pass from Urena,Adam (Nagucki,Nathan kick) 5 plays, 64 yards, TOP 02:53",
+    "mercyhurst_score": 41,
+    "opponent_score": 0,
+    "score_differential": 41
+  },
+  {
+    "quarter": 4,
+    "time": "09:14",
+    "elapsed_seconds": 3046,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Barmore,Cameron 15 yd pass from Urena,Adam (Nagucki,Nathan kick) 10 plays, 85 yards, TOP 06:01",
+    "mercyhurst_score": 48,
+    "opponent_score": 0,
+    "score_differential": 48
+  },
+  {
+    "quarter": 4,
+    "time": "03:21",
+    "elapsed_seconds": 3399,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Black,Braydon 42 yd pass from Gevaudan,Alex (Nagucki,Nathan kick) 3 plays, 79 yards, TOP 01:31",
+    "mercyhurst_score": 55,
+    "opponent_score": 0,
+    "score_differential": 55
+  },
+  {
+    "quarter": 1,
+    "time": "",
+    "elapsed_seconds": 0,
+    "team": "Buffalo State",
+    "result": "Touchdown",
+    "play_description": "",
+    "mercyhurst_score": 55,
+    "opponent_score": 0,
+    "score_differential": 55
+  },
+  {
+    "quarter": 4,
+    "time": "00:00",
+    "elapsed_seconds": 3600,
+    "team": "Game End",
+    "result": "Game End",
+    "play_description": "Final Score - Mercyhurst 55, Buffalo State 0",
+    "mercyhurst_score": 55,
+    "opponent_score": 0,
+    "score_differential": 55
+  }
+]

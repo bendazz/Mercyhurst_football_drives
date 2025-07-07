@@ -1,0 +1,112 @@
+[
+  {
+    "quarter": 1,
+    "time": "15:00",
+    "elapsed_seconds": 0,
+    "team": "Game Start",
+    "result": "Game Start",
+    "play_description": "Game Start - Mercyhurst vs Wheeling University",
+    "mercyhurst_score": 0,
+    "wheeling_score": 0,
+    "score_differential": 0
+  },
+  {
+    "quarter": 1,
+    "time": "12:58",
+    "elapsed_seconds": 122,
+    "team": "Wheeling",
+    "result": "Touchdown",
+    "play_description": "WHL - Holloway,Tre 52 yd pass from Davis,Javon (Lima,Joao kick) 5 plays, 72 yards, TOP 01:56",
+    "mercyhurst_score": 0,
+    "wheeling_score": 7,
+    "score_differential": -7
+  },
+  {
+    "quarter": 1,
+    "time": "11:10",
+    "elapsed_seconds": 230,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MHU - Pytlak,Russell 10 yd pass from Urena,Adam (Nagucki,Nathan kick) 4 plays, 75 yards, TOP 01:43",
+    "mercyhurst_score": 7,
+    "wheeling_score": 7,
+    "score_differential": 0
+  },
+  {
+    "quarter": 2,
+    "time": "14:52",
+    "elapsed_seconds": 908,
+    "team": "Wheeling",
+    "result": "Field Goal",
+    "play_description": "WHL - Lima,Joao 37 yd field goal 11 plays, 50 yards, TOP 05:28",
+    "mercyhurst_score": 7,
+    "wheeling_score": 10,
+    "score_differential": -3
+  },
+  {
+    "quarter": 2,
+    "time": "09:40",
+    "elapsed_seconds": 1220,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MHU - Barmore,Cameron 27 yd pass from Urena,Adam (Nagucki,Nathan kick) 10 plays, 86 yards, TOP 05:06",
+    "mercyhurst_score": 14,
+    "wheeling_score": 10,
+    "score_differential": 4
+  },
+  {
+    "quarter": 2,
+    "time": "01:56",
+    "elapsed_seconds": 1684,
+    "team": "Wheeling",
+    "result": "Touchdown",
+    "play_description": "WHL - Green,Dawaun 1 yd run (Lima,Joao kick), 16 plays, 75 yards, TOP 07:44",
+    "mercyhurst_score": 14,
+    "wheeling_score": 17,
+    "score_differential": -3
+  },
+  {
+    "quarter": 2,
+    "time": "00:26",
+    "elapsed_seconds": 1774,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MHU - Trobel,Brian 1 yd run (Nagucki,Nathan kick), 6 plays, 60 yards, TOP 01:22",
+    "mercyhurst_score": 21,
+    "wheeling_score": 17,
+    "score_differential": 4
+  },
+  {
+    "quarter": 3,
+    "time": "10:46",
+    "elapsed_seconds": 2054,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MHU - Barmore,Cameron 4 yd pass from Urena,Adam (Nagucki,Nathan kick) 10 plays, 75 yards, TOP 04:07",
+    "mercyhurst_score": 28,
+    "wheeling_score": 17,
+    "score_differential": 11
+  },
+  {
+    "quarter": 4,
+    "time": "00:23",
+    "elapsed_seconds": 3577,
+    "team": "Wheeling",
+    "result": "Touchdown",
+    "play_description": "WHL - Holloway,Tre 33 yd pass from Davis,Javon (Holloway,Tre rush) 1 plays, 43 yards, TOP 02:22",
+    "mercyhurst_score": 28,
+    "wheeling_score": 25,
+    "score_differential": 3
+  },
+  {
+    "quarter": 4,
+    "time": "00:00",
+    "elapsed_seconds": 3600,
+    "team": "Game End",
+    "result": "Game End",
+    "play_description": "Final Score - Mercyhurst 28, Wheeling 25",
+    "mercyhurst_score": 28,
+    "wheeling_score": 25,
+    "score_differential": 3
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "quarter": 1,
+    "time": "15:00",
+    "elapsed_seconds": 0,
+    "team": "Game Start",
+    "result": "Game Start",
+    "play_description": "Game Start - Mercyhurst vs Frostburg State University",
+    "mercyhurst_score": 0,
+    "opponent_score": 0,
+    "score_differential": 0
+  },
+  {
+    "quarter": 1,
+    "time": "11:06",
+    "elapsed_seconds": 234,
+    "team": "Frostburg State University",
+    "result": "Touchdown",
+    "play_description": "FSU - Marcucci,Jordan 4 yd pass from Fulton,Myles (Keen,Brandon kick) 8 plays, 52 yards, TOP 00:00",
+    "mercyhurst_score": 0,
+    "opponent_score": 7,
+    "score_differential": -7
+  },
+  {
+    "quarter": 1,
+    "time": "08:56",
+    "elapsed_seconds": 364,
+    "team": "Frostburg State University",
+    "result": "Touchdown",
+    "play_description": "FSU - N'namdi-Hall,Amari 25 yd pass from Fulton,Myles (Keen,Brandon kick) 4 plays, 53 yards, TOP 02:09",
+    "mercyhurst_score": 0,
+    "opponent_score": 14,
+    "score_differential": -14
+  },
+  {
+    "quarter": 2,
+    "time": "09:39",
+    "elapsed_seconds": 1221,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Rodriguez,Ayron 10 yd pass from Urena,Adam ( ) 10 plays, 85 yards, TOP 05:06",
+    "mercyhurst_score": 6,
+    "opponent_score": 14,
+    "score_differential": -8
+  },
+  {
+    "quarter": 2,
+    "time": "01:57",
+    "elapsed_seconds": 1683,
+    "team": "Frostburg State University",
+    "result": "Field Goal",
+    "play_description": "FSU - Keen,Brandon 14 yd field goal 13 plays, 76 yards, TOP 07:29",
+    "mercyhurst_score": 6,
+    "opponent_score": 17,
+    "score_differential": -11
+  },
+  {
+    "quarter": 2,
+    "time": "00:32",
+    "elapsed_seconds": 1768,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Davison,Rylan 1 yd run ( ), 6 plays, 75 yards, TOP 01:25",
+    "mercyhurst_score": 12,
+    "opponent_score": 17,
+    "score_differential": -5
+  },
+  {
+    "quarter": 3,
+    "time": "09:30",
+    "elapsed_seconds": 2130,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Trobel,Brian 1 yd run ( ), 3 plays, 8 yards, TOP 01:25",
+    "mercyhurst_score": 18,
+    "opponent_score": 17,
+    "score_differential": 1
+  },
+  {
+    "quarter": 3,
+    "time": "03:10",
+    "elapsed_seconds": 2510,
+    "team": "Frostburg State University",
+    "result": "Touchdown",
+    "play_description": "FSU - Gibson,Jeremiah 13 yd pass from Fulton,Myles (N'namdi-Hall,Amari pass) 10 plays, 85 yards, TOP 06:14",
+    "mercyhurst_score": 18,
+    "opponent_score": 25,
+    "score_differential": -7
+  },
+  {
+    "quarter": 4,
+    "time": "10:00",
+    "elapsed_seconds": 3000,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Trobel,Brian 35 yd pass from Urena,Adam ( ) 6 plays, 68 yards, TOP 03:24",
+    "mercyhurst_score": 24,
+    "opponent_score": 25,
+    "score_differential": -1
+  },
+  {
+    "quarter": 1,
+    "time": "",
+    "elapsed_seconds": 0,
+    "team": "Frostburg State University",
+    "result": "Touchdown",
+    "play_description": "",
+    "mercyhurst_score": 24,
+    "opponent_score": 25,
+    "score_differential": -1
+  },
+  {
+    "quarter": 4,
+    "time": "00:00",
+    "elapsed_seconds": 3600,
+    "team": "Game End",
+    "result": "Game End",
+    "play_description": "Final Score - Mercyhurst 24, Frostburg State University 25",
+    "mercyhurst_score": 24,
+    "opponent_score": 25,
+    "score_differential": -1
+  }
+]

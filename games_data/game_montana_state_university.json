@@ -1,0 +1,145 @@
+[
+  {
+    "quarter": 1,
+    "time": "15:00",
+    "elapsed_seconds": 0,
+    "team": "Game Start",
+    "result": "Game Start",
+    "play_description": "Game Start - Mercyhurst vs Montana State University",
+    "mercyhurst_score": 0,
+    "opponent_score": 0,
+    "score_differential": 0
+  },
+  {
+    "quarter": 1,
+    "time": "08:07",
+    "elapsed_seconds": 413,
+    "team": "Montana State University",
+    "result": "Field Goal",
+    "play_description": "MSU - Sansted,Myles 23 yd field goal 12 plays, 70 yards, TOP 06:48",
+    "mercyhurst_score": 0,
+    "opponent_score": 3,
+    "score_differential": -3
+  },
+  {
+    "quarter": 1,
+    "time": "01:47",
+    "elapsed_seconds": 793,
+    "team": "Montana State University",
+    "result": "Touchdown",
+    "play_description": "MSU - Humphrey,Scottre 5 yd run (Sansted,Myles kick), 8 plays, 57 yards, TOP 04:11",
+    "mercyhurst_score": 0,
+    "opponent_score": 10,
+    "score_differential": -10
+  },
+  {
+    "quarter": 2,
+    "time": "07:24",
+    "elapsed_seconds": 1356,
+    "team": "Montana State University",
+    "result": "Touchdown",
+    "play_description": "MSU - Dowler,Taco 5 yd pass from Mellott,Tommy (Sansted,Myles kick) 6 plays, 57 yards, TOP 02:50",
+    "mercyhurst_score": 0,
+    "opponent_score": 17,
+    "score_differential": -17
+  },
+  {
+    "quarter": 2,
+    "time": "05:56",
+    "elapsed_seconds": 1444,
+    "team": "Montana State University",
+    "result": "Touchdown",
+    "play_description": "MSU - Crews,Zac 0 yd punt return (Sansted,Myles kick)",
+    "mercyhurst_score": 0,
+    "opponent_score": 24,
+    "score_differential": -24
+  },
+  {
+    "quarter": 2,
+    "time": "00:27",
+    "elapsed_seconds": 1773,
+    "team": "Montana State University",
+    "result": "Touchdown",
+    "play_description": "MSU - Jones,Adam 50 yd pass from Mellott,Tommy (Sansted,Myles kick) 6 plays, 80 yards, TOP 01:11",
+    "mercyhurst_score": 0,
+    "opponent_score": 31,
+    "score_differential": -31
+  },
+  {
+    "quarter": 3,
+    "time": "08:23",
+    "elapsed_seconds": 2197,
+    "team": "Montana State University",
+    "result": "Touchdown",
+    "play_description": "MSU - Jones,Rohan 16 yd pass from Mellott,Tommy (Sansted,Myles kick) 8 plays, 85 yards, TOP 03:47",
+    "mercyhurst_score": 0,
+    "opponent_score": 38,
+    "score_differential": -38
+  },
+  {
+    "quarter": 3,
+    "time": "05:36",
+    "elapsed_seconds": 2364,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Marshall,Adonis 43 yd fumble recovery ( )",
+    "mercyhurst_score": 6,
+    "opponent_score": 38,
+    "score_differential": -32
+  },
+  {
+    "quarter": 3,
+    "time": "03:13",
+    "elapsed_seconds": 2507,
+    "team": "Montana State University",
+    "result": "Touchdown",
+    "play_description": "MSU - Coon,Colson 50 yd run (Sansted,Myles kick), 2 plays, 55 yards, TOP 00:50",
+    "mercyhurst_score": 6,
+    "opponent_score": 45,
+    "score_differential": -39
+  },
+  {
+    "quarter": 4,
+    "time": "08:47",
+    "elapsed_seconds": 3073,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Kerbacher,Joe 5 yd pass from Urena,Adam (Nagucki,Nathan kick) 18 plays, 75 yards, TOP 09:26",
+    "mercyhurst_score": 13,
+    "opponent_score": 45,
+    "score_differential": -32
+  },
+  {
+    "quarter": 4,
+    "time": "03:43",
+    "elapsed_seconds": 3377,
+    "team": "Montana State University",
+    "result": "Touchdown",
+    "play_description": "MSU - Wilson,Chance 5 yd run (Sansted,Myles kick), 10 plays, 74 yards, TOP 04:57",
+    "mercyhurst_score": 13,
+    "opponent_score": 52,
+    "score_differential": -39
+  },
+  {
+    "quarter": 1,
+    "time": "",
+    "elapsed_seconds": 0,
+    "team": "Montana State University",
+    "result": "Touchdown",
+    "play_description": "",
+    "mercyhurst_score": 13,
+    "opponent_score": 52,
+    "score_differential": -39
+  },
+  {
+    "quarter": 4,
+    "time": "00:00",
+    "elapsed_seconds": 3600,
+    "team": "Game End",
+    "result": "Game End",
+    "play_description": "Final Score - Mercyhurst 13, Montana State University 52",
+    "mercyhurst_score": 13,
+    "opponent_score": 52,
+    "score_differential": -39
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "quarter": 1,
+    "time": "15:00",
+    "elapsed_seconds": 0,
+    "team": "Game Start",
+    "result": "Game Start",
+    "play_description": "Game Start - Mercyhurst vs Duquesne University",
+    "mercyhurst_score": 0,
+    "opponent_score": 0,
+    "score_differential": 0
+  },
+  {
+    "quarter": 1,
+    "time": "10:24",
+    "elapsed_seconds": 276,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Davison,Rylan 5 yd pass from Urena,Adam (Nagucki,Nathan kick) 10 plays, 69 yards, TOP 04:30",
+    "mercyhurst_score": 7,
+    "opponent_score": 0,
+    "score_differential": 7
+  },
+  {
+    "quarter": 2,
+    "time": "06:07",
+    "elapsed_seconds": 1433,
+    "team": "Duquesne University",
+    "result": "Touchdown",
+    "play_description": "DUQ - Afful,Tedy 5 yd pass from Perrantes,Darius (Bruzdewicz,Brian kick) 9 plays, 56 yards, TOP 04:21",
+    "mercyhurst_score": 7,
+    "opponent_score": 7,
+    "score_differential": 0
+  },
+  {
+    "quarter": 2,
+    "time": "00:47",
+    "elapsed_seconds": 1753,
+    "team": "Mercyhurst",
+    "result": "Field Goal",
+    "play_description": "MER - Nagucki,Nathan 21 yd field goal 13 plays, 77 yards, TOP 05:15",
+    "mercyhurst_score": 10,
+    "opponent_score": 7,
+    "score_differential": 3
+  },
+  {
+    "quarter": 3,
+    "time": "14:43",
+    "elapsed_seconds": 1817,
+    "team": "Duquesne University",
+    "result": "Touchdown",
+    "play_description": "DUQ - Isabella,Joey 64 yd pass from Perrantes,Darius (Bruzdewicz,Brian kick) 1 plays, 64 yards, TOP 00:10",
+    "mercyhurst_score": 10,
+    "opponent_score": 14,
+    "score_differential": -4
+  },
+  {
+    "quarter": 3,
+    "time": "09:16",
+    "elapsed_seconds": 2144,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Davison,Rylan 24 yd pass from Urena,Adam (Nagucki,Nathan kick) 11 plays, 82 yards, TOP 05:23",
+    "mercyhurst_score": 17,
+    "opponent_score": 14,
+    "score_differential": 3
+  },
+  {
+    "quarter": 3,
+    "time": "04:44",
+    "elapsed_seconds": 2416,
+    "team": "Duquesne University",
+    "result": "Field Goal",
+    "play_description": "DUQ - Bruzdewicz,Brian 31 yd field goal 8 plays, 62 yards, TOP 04:32",
+    "mercyhurst_score": 17,
+    "opponent_score": 17,
+    "score_differential": 0
+  },
+  {
+    "quarter": 4,
+    "time": "09:09",
+    "elapsed_seconds": 3051,
+    "team": "Duquesne University",
+    "result": "Touchdown",
+    "play_description": "DUQ - Clements,JaMario 8 yd run (Bruzdewicz,Brian kick), 4 plays, 78 yards, TOP 02:04",
+    "mercyhurst_score": 17,
+    "opponent_score": 24,
+    "score_differential": -7
+  },
+  {
+    "quarter": 4,
+    "time": "04:16",
+    "elapsed_seconds": 3344,
+    "team": "Duquesne University",
+    "result": "Touchdown",
+    "play_description": "DUQ - Clements,JaMario 86 yd run (Bruzdewicz,Brian kick), 2 plays, 93 yards, TOP 00:56",
+    "mercyhurst_score": 17,
+    "opponent_score": 31,
+    "score_differential": -14
+  },
+  {
+    "quarter": 4,
+    "time": "01:30",
+    "elapsed_seconds": 3510,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Barmore,Cameron 10 yd pass from Urena,Adam (Nagucki,Nathan kick) 10 plays, 81 yards, TOP 02:42",
+    "mercyhurst_score": 24,
+    "opponent_score": 31,
+    "score_differential": -7
+  },
+  {
+    "quarter": 1,
+    "time": "",
+    "elapsed_seconds": 0,
+    "team": "Duquesne University",
+    "result": "Touchdown",
+    "play_description": "",
+    "mercyhurst_score": 24,
+    "opponent_score": 31,
+    "score_differential": -7
+  },
+  {
+    "quarter": 4,
+    "time": "00:00",
+    "elapsed_seconds": 3600,
+    "team": "Game End",
+    "result": "Game End",
+    "play_description": "Final Score - Mercyhurst 24, Duquesne University 31",
+    "mercyhurst_score": 24,
+    "opponent_score": 31,
+    "score_differential": -7
+  }
+]

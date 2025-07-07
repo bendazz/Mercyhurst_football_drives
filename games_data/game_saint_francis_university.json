@@ -1,0 +1,123 @@
+[
+  {
+    "quarter": 1,
+    "time": "15:00",
+    "elapsed_seconds": 0,
+    "team": "Game Start",
+    "result": "Game Start",
+    "play_description": "Game Start - Mercyhurst vs Saint Francis University",
+    "mercyhurst_score": 0,
+    "opponent_score": 0,
+    "score_differential": 0
+  },
+  {
+    "quarter": 1,
+    "time": "06:50",
+    "elapsed_seconds": 490,
+    "team": "Saint Francis University",
+    "result": "Touchdown",
+    "play_description": "SFU - Thomson,Gavin 46 yd pass from Whitfield Jr.,Nick (Plummer,Mac kick) 10 plays, 80 yards, TOP 05:47",
+    "mercyhurst_score": 0,
+    "opponent_score": 7,
+    "score_differential": -7
+  },
+  {
+    "quarter": 2,
+    "time": "10:23",
+    "elapsed_seconds": 1177,
+    "team": "Saint Francis University",
+    "result": "Field Goal",
+    "play_description": "SFU - Plummer,Mac 39 yd field goal 14 plays, 51 yards, TOP 09:05",
+    "mercyhurst_score": 0,
+    "opponent_score": 10,
+    "score_differential": -10
+  },
+  {
+    "quarter": 2,
+    "time": "01:39",
+    "elapsed_seconds": 1701,
+    "team": "Saint Francis University",
+    "result": "Field Goal",
+    "play_description": "SFU - Plummer,Mac 39 yd field goal 13 plays, 60 yards, TOP 05:29",
+    "mercyhurst_score": 0,
+    "opponent_score": 13,
+    "score_differential": -13
+  },
+  {
+    "quarter": 2,
+    "time": "00:06",
+    "elapsed_seconds": 1794,
+    "team": "Mercyhurst",
+    "result": "Field Goal",
+    "play_description": "MER - Nagucki,Nathan 18 yd field goal 7 plays, 67 yards, TOP 01:33",
+    "mercyhurst_score": 3,
+    "opponent_score": 13,
+    "score_differential": -10
+  },
+  {
+    "quarter": 3,
+    "time": "03:31",
+    "elapsed_seconds": 2489,
+    "team": "Mercyhurst",
+    "result": "Field Goal",
+    "play_description": "MER - Nagucki,Nathan 24 yd field goal 11 plays, 51 yards, TOP 05:03",
+    "mercyhurst_score": 6,
+    "opponent_score": 13,
+    "score_differential": -7
+  },
+  {
+    "quarter": 4,
+    "time": "10:54",
+    "elapsed_seconds": 2946,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Barmore,Cameron 10 yd pass from Urena,Adam (Nagucki,Nathan kick) 10 plays, 78 yards, TOP 05:44",
+    "mercyhurst_score": 13,
+    "opponent_score": 13,
+    "score_differential": 0
+  },
+  {
+    "quarter": 4,
+    "time": "05:53",
+    "elapsed_seconds": 3247,
+    "team": "Saint Francis University",
+    "result": "Touchdown",
+    "play_description": "SFU - Thomson,Gavin 45 yd pass from Whitfield Jr.,Nick (Plummer,Mac kick) 8 plays, 86 yards, TOP 04:55",
+    "mercyhurst_score": 13,
+    "opponent_score": 20,
+    "score_differential": -7
+  },
+  {
+    "quarter": 4,
+    "time": "00:42",
+    "elapsed_seconds": 3558,
+    "team": "Mercyhurst",
+    "result": "Touchdown",
+    "play_description": "MER - Barmore,Cameron 29 yd pass from Urena,Adam (Welch,Ryan pass) 11 plays, 66 yards, TOP 05:07",
+    "mercyhurst_score": 21,
+    "opponent_score": 20,
+    "score_differential": 1
+  },
+  {
+    "quarter": 1,
+    "time": "",
+    "elapsed_seconds": 0,
+    "team": "Saint Francis University",
+    "result": "Touchdown",
+    "play_description": "",
+    "mercyhurst_score": 21,
+    "opponent_score": 20,
+    "score_differential": 1
+  },
+  {
+    "quarter": 4,
+    "time": "00:00",
+    "elapsed_seconds": 3600,
+    "team": "Game End",
+    "result": "Game End",
+    "play_description": "Final Score - Mercyhurst 21, Saint Francis University 20",
+    "mercyhurst_score": 21,
+    "opponent_score": 20,
+    "score_differential": 1
+  }
+]
